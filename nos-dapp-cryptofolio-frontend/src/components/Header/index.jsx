@@ -2,7 +2,7 @@ import React from "react";
 import injectSheet from "react-jss";
 import PropTypes from "prop-types";
 
-import SpinningLogo from "./../SpinningLogo";
+import SpinningLogo from "../SpinningLogo/index";
 
 const styles = {
   header: {

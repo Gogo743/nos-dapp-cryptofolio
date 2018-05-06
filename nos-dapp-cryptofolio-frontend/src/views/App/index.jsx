@@ -2,8 +2,8 @@ import React from "react";
 import injectSheet from "react-jss";
 import PropTypes from "prop-types";
 
-import Header from "./../../components/Header";
-import NOSActions from "./../../components/NOSActions";
+import Header from "../../components/Header/index";
+import NOSActions from "../../components/NOSActions/index";
 
 const styles = {
   "@import": "https://fonts.googleapis.com/css?family=Source+Sans+Pro",

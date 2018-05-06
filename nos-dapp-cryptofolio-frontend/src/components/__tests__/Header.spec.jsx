@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "enzyme";
 
-import TestPropTypes from "./../../__helpers__/TestPropTypes.helper";
+import TestPropTypes from "../../__helpers__/TestPropTypes.helper";
 
-import Header from "./../Header";
+import Header from "../Header/index";
 
 describe("Components", () => {
   describe("Header", () => {

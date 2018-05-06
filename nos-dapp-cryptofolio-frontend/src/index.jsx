@@ -8,7 +8,7 @@ import globalStyles from "jss-global";
 import vendorPrefixer from "jss-vendor-prefixer";
 import { JssProvider } from "react-jss";
 
-import App from "./views/App";
+import App from "./views/App/index";
 
 const jss = createJss();
 jss.use(vendorPrefixer(), camelCase(), globalStyles());

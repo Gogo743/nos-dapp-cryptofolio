@@ -3,7 +3,7 @@ import injectSheet from "react-jss";
 import PropTypes from "prop-types";
 import { nosPropTypes } from "@nosplatform/api-functions/es6";
 
-import { injectNOS } from "../../nos";
+import { injectNOS } from "../../nos/index";
 
 const styles = {
   button: {

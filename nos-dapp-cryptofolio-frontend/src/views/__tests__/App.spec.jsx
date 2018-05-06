@@ -1,11 +1,12 @@
 import React from "react";
 import { render } from "enzyme";
-import SpinningLogo from "./../SpinningLogo";
+
+import App from "../App/index";
 
 describe("Components", () => {
-  describe("SpinningLogo", () => {
+  describe("Header", () => {
     test("should render", () => {
-      const wrapper = render(<SpinningLogo />);
+      const wrapper = render(<App />);
       expect(wrapper).toMatchSnapshot();
     });
   });

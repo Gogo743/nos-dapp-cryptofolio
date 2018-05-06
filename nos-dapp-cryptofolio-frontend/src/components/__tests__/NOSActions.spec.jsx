@@ -1,12 +1,11 @@
 import React from "react";
 import { render } from "enzyme";
-
-import App from "./../App";
+import NOSActions from "../NOSActions/index";
 
 describe("Components", () => {
-  describe("Header", () => {
+  describe("NOSActions", () => {
     test("should render", () => {
-      const wrapper = render(<App />);
+      const wrapper = render(<NOSActions />);
       expect(wrapper).toMatchSnapshot();
     });
   });

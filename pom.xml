@@ -17,6 +17,7 @@
 
     <modules>
         <module>nos-dapp-cryptofolio-boot</module>
+        <module>nos-dapp-cryptofolio-frontend</module>
     </modules>
 
     <properties>

@@ -2,7 +2,7 @@ import React from "react";
 import injectSheet from "react-jss";
 import PropTypes from "prop-types";
 
-import nosLogo from "./../../assets/logo.png";
+import nosLogo from "../../assets/logo.png";
 
 const styles = {
   logoContainer: {
