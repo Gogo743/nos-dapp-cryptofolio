@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class NosDappCryptofolioBootApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(NosDappCryptofolioBootApplication.class, args);
     }
 }

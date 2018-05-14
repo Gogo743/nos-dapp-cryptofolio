@@ -9,3 +9,6 @@ build/
 
 # Jest stuff
 coverage/
+/nos-dapp-cryptofolio.iml
+/nos-dapp-cryptofolio-boot/nos-dapp-cryptofolio-boot.iml
+/package-lock.json
